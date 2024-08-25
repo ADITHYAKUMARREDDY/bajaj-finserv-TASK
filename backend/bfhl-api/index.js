@@ -6,9 +6,9 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 
-const userId = "john_doe_17091999";
-const email = "john@xyz.com";
-const rollNumber = "ABCD123";
+const userId = "Gopavaram_Adithya_Kumar_Reddy__06022004";
+const email = "adithya.2021@vitstudent.ac.in";
+const rollNumber = "21BCE2064";
 app.use(cors());
 // Handle GET request
 app.get('/operation', (req, res) => {
